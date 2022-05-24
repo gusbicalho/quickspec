@@ -13,7 +13,7 @@ import QuickSpec.Internal.Terminal
 import Control.Monad.IO.Class
 import Control.Monad.Trans.Class
 import qualified Twee.Base as Twee
-import Twee.Base(Arity(..))
+import QuickSpec.Internal.Arity (Arity (..))
 
 data Tagged fun =
     Func fun
